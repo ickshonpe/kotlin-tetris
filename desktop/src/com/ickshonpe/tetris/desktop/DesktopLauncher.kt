@@ -9,7 +9,6 @@ object DesktopLauncher {
         val config = LwjglApplicationConfiguration()
         config.width = 400
         config.height = 800
-
         LwjglApplication(TetrisGame(), config)        
     }
 }
